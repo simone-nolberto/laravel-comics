@@ -5,7 +5,7 @@
 <div class="jumbotron">
 </div>
 
-<div class="container bg-dark py-5">
+<div class="bg-dark py-5 comics-container">
     <div class="row row-cols-1 row-cols-md-6 g-4">
 
         @foreach($comics as $comic)
@@ -22,7 +22,7 @@
 
 </div>
 
-<div class="container bg-primary bottom-nav">
+<div class="bg-primary bottom-nav">
     <div class="row">
         <ul class="list-unstyled text-white">
             <li><img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">Digital Comics</li>

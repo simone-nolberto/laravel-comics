@@ -9,11 +9,11 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-current="page">Home
+                        <a class="nav-link {{Route::currentRouteName() === 'home' ? 'text-black' :''}}" href="{{route('home')}}" aria-current="page">Fumetti
                             <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link {{Route::currentRouteName() === 'about' ? 'text-black' :''}}" href="{{route('about')}}">La nostra storia</a>
                     </li>
 
                 </ul>
