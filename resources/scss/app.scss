@@ -6,3 +6,15 @@
     min-height: 50vh;
 
 }
+
+.bottom-nav {
+    width: 100%;
+
+    & ul {
+        display: flex;
+        padding: 3rem;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+
+}
