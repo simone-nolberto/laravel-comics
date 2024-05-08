@@ -21,6 +21,16 @@ Route::get('/', function () {
 })->name('home');
 
 
+Route::get('/comics/{id}', function($id) {
+
+    abort_unless($id >= 0 && $id < count(config('db.comics')), 404);
+
+    $comic = config('db.comics')[$id];
+
+    return view('comic', compact('comic'));
+})->name('comic');
+
+
 
 Route::get('/about', function () {
 
