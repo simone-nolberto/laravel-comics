@@ -15,25 +15,14 @@
     }
 
 
+
 }
 
 .bottom-nav {
 
-
     & .row {
         width: 70%;
         margin: auto;
-    }
-
-    & ul {
-        display: flex;
-        padding: 3rem;
-        justify-content: center;
-        gap: 2.5rem;
-
-        & img {
-            height: 75px;
-        }
     }
 
 }
@@ -41,7 +30,21 @@
 
 footer {
 
-    & .top {
+    .top {
+        & ul {
+            display: flex;
+            padding: 3rem;
+            justify-content: center;
+            gap: 2.5rem;
+
+            & img {
+                height: 75px;
+            }
+        }
+    }
+
+
+    & .bottom {
         background-image: url(../img/footer-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;

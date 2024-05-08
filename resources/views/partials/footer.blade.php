@@ -1,5 +1,5 @@
 <footer>
-    <div class="bg-primary bottom-nav">
+    <div class="top bg-primary bottom-nav">
         <div class="row">
             <ul class="list-unstyled text-white">
                 <li><img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">Digital
@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div class="top">
+    <div class="bottom">
 
         <div class="container text-white w-50">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-4">
